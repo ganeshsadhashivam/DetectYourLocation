@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Andika&family=Catamaran:wght@400;500&family=Inter:wght@300&family=Lato&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@300;400&family=Raleway:ital,wght@0,300;0,400;0,600;1,300&family=Tangerine:wght@400;700&family=Vollkorn&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-family: "Andika", sans-serif;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Tangerine", cursive;
+  font-family: "Vollkorn", serif;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background: rgb(97, 40, 176);
+  background: linear-gradient(
+    176deg,
+    rgba(97, 40, 176, 1) 50%,
+    rgba(0, 220, 255, 1) 100%
+  ); */
+  background: rgb(97, 40, 176);
+  background: linear-gradient(
+    356deg,
+    rgba(97, 40, 176, 1) 0%,
+    rgba(17, 188, 215, 1) 100%
+  );
+}
+
+button {
+  font-size: 50px;
+  padding: 25px 46px;
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  /* color: background: rgb(97,40,176); */
+  /* background: linear-gradient(356deg, rgba(97,40,176,1) 0%, rgba(17,188,215,1) 100%);; */
+  cursor: pointer;
+}
